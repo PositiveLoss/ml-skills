@@ -27,7 +27,7 @@ class PackagingTests(unittest.TestCase):
     def write(self, name, content):
         path = self.root / name
         path.parent.mkdir(parents=True, exist_ok=True)
-        path.write_text(content, encoding="utf-8")
+        path.write_bytes(content.encode("utf-8"))
 
     def test_archive_preserves_resources_and_excludes_tooling_and_generated_files(self):
         self.write("test-skill/scripts/helper.py", "print('hello')\n")
