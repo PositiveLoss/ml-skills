@@ -1,0 +1,4 @@
+interface:
+  display_name: "Calibrate ML predictions"
+  short_description: "Separate confidence calibration from threshold tuning"
+  default_prompt: "Use $calibrate-ml-predictions to implement and verify this ML task with reproducible evidence."

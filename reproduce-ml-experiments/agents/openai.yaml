@@ -1,0 +1,4 @@
+interface:
+  display_name: "Reproduce ML experiments"
+  short_description: "Restore experiments with honest determinism limits"
+  default_prompt: "Use $reproduce-ml-experiments to implement and verify this ML task with reproducible evidence."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Audit ML datasets"
+  short_description: "Inspect labels, duplicates, coverage and provenance"
+  default_prompt: "Use $audit-ml-datasets to implement and verify this ML task with reproducible evidence."

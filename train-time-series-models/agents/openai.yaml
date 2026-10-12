@@ -1,0 +1,4 @@
+interface:
+  display_name: "Train time-series models"
+  short_description: "Backtest forecasts with point-in-time features"
+  default_prompt: "Use $train-time-series-models to implement and verify this ML task with reproducible evidence."

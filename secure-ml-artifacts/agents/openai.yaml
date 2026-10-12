@@ -1,0 +1,4 @@
+interface:
+  display_name: "Secure ML artifacts"
+  short_description: "Control model loading, provenance and sensitive data use"
+  default_prompt: "Use $secure-ml-artifacts to implement and verify this ML task with reproducible evidence."

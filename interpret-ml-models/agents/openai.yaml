@@ -1,0 +1,4 @@
+interface:
+  display_name: "Interpret ML models"
+  short_description: "Inspect predictive explanations without causal claims"
+  default_prompt: "Use $interpret-ml-models to implement and verify this ML task with reproducible evidence."

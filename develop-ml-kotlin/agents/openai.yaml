@@ -1,0 +1,4 @@
+interface:
+  display_name: "Kotlin ML"
+  short_description: "Build Kotlin ML pipelines and inference contracts"
+  default_prompt: "Use $develop-ml-kotlin to implement and verify this ML task with reproducible evidence."

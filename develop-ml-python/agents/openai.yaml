@@ -1,0 +1,4 @@
+interface:
+  display_name: "Python ML"
+  short_description: "Build Python ML pipelines and inference contracts"
+  default_prompt: "Use $develop-ml-python to implement and verify this ML task with reproducible evidence."

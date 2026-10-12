@@ -1,0 +1,4 @@
+interface:
+  display_name: "Serve ML models"
+  short_description: "Bound inference concurrency, latency and schema behavior"
+  default_prompt: "Use $serve-ml-models to implement and verify this ML task with reproducible evidence."

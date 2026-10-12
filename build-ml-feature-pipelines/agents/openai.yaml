@@ -1,0 +1,4 @@
+interface:
+  display_name: "Build ML feature pipelines"
+  short_description: "Keep transformations consistent across train and serve"
+  default_prompt: "Use $build-ml-feature-pipelines to implement and verify this ML task with reproducible evidence."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Train deep learning models"
+  short_description: "Build controlled neural-network training experiments"
+  default_prompt: "Use $train-deep-learning-models to implement and verify this ML task with reproducible evidence."

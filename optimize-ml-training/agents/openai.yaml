@@ -1,0 +1,4 @@
+interface:
+  display_name: "Optimize ML training"
+  short_description: "Profile bottlenecks while preserving model quality"
+  default_prompt: "Use $optimize-ml-training to implement and verify this ML task with reproducible evidence."

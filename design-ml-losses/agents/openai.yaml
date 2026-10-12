@@ -1,0 +1,4 @@
+interface:
+  display_name: "Design ML losses"
+  short_description: "Check loss semantics, gradients and class costs"
+  default_prompt: "Use $design-ml-losses to implement and verify this ML task with reproducible evidence."

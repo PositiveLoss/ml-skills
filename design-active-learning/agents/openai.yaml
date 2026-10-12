@@ -1,0 +1,4 @@
+interface:
+  display_name: "Design active learning"
+  short_description: "Select annotations without contaminating evaluation"
+  default_prompt: "Use $design-active-learning to implement and verify this ML task with reproducible evidence."

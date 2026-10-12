@@ -1,0 +1,4 @@
+interface:
+  display_name: "Train reinforcement learning"
+  short_description: "Separate environment semantics, seeds and policy evaluation"
+  default_prompt: "Use $train-reinforcement-learning to implement and verify this ML task with reproducible evidence."

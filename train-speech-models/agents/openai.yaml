@@ -1,0 +1,4 @@
+interface:
+  display_name: "Train speech models"
+  short_description: "Evaluate ASR and speech tasks by speaker and channel"
+  default_prompt: "Use $train-speech-models to implement and verify this ML task with reproducible evidence."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Train ML with TensorFlow"
+  short_description: "Verify Keras training, masks and SavedModel signatures"
+  default_prompt: "Use $train-ml-with-tensorflow to implement and verify this ML task with reproducible evidence."

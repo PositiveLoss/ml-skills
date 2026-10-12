@@ -1,0 +1,4 @@
+interface:
+  display_name: "Export ML models"
+  short_description: "Validate ONNX and runtime predictions end to end"
+  default_prompt: "Use $export-ml-models to implement and verify this ML task with reproducible evidence."

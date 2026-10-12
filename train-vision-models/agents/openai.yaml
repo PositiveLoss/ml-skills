@@ -1,0 +1,4 @@
+interface:
+  display_name: "Train vision models"
+  short_description: "Train CV models with correct geometry and image splits"
+  default_prompt: "Use $train-vision-models to implement and verify this ML task with reproducible evidence."

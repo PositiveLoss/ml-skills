@@ -1,0 +1,4 @@
+interface:
+  display_name: "Go ML"
+  short_description: "Build Go ML pipelines and inference contracts"
+  default_prompt: "Use $develop-ml-go to implement and verify this ML task with reproducible evidence."

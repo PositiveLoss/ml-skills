@@ -1,0 +1,4 @@
+interface:
+  display_name: "Adapt foundation models"
+  short_description: "Fine-tune adapters with controlled data and evaluation"
+  default_prompt: "Use $adapt-foundation-models to implement and verify this ML task with reproducible evidence."

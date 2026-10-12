@@ -1,0 +1,4 @@
+interface:
+  display_name: "Tune ML hyperparameters"
+  short_description: "Tune within honest folds and explicit compute budgets"
+  default_prompt: "Use $tune-ml-hyperparameters to implement and verify this ML task with reproducible evidence."

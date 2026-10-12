@@ -1,0 +1,4 @@
+interface:
+  display_name: "Frame ML problems"
+  short_description: "Define ML objectives, costs and success criteria"
+  default_prompt: "Use $frame-ml-problems to implement and verify this ML task with reproducible evidence."

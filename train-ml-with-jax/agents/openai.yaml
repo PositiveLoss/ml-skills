@@ -1,0 +1,4 @@
+interface:
+  display_name: "Train ML with JAX"
+  short_description: "Manage pure JAX steps, RNG and device placement"
+  default_prompt: "Use $train-ml-with-jax to implement and verify this ML task with reproducible evidence."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Design ML data splits"
+  short_description: "Prevent group, temporal and preprocessing leakage"
+  default_prompt: "Use $design-ml-data-splits to implement and verify this ML task with reproducible evidence."

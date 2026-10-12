@@ -1,0 +1,4 @@
+interface:
+  display_name: "Test ML software"
+  short_description: "Test data, numerical and inference contracts separately"
+  default_prompt: "Use $test-ml-software to implement and verify this ML task with reproducible evidence."

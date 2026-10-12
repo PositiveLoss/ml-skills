@@ -1,0 +1,4 @@
+interface:
+  display_name: "Scala ML"
+  short_description: "Build Scala ML pipelines and inference contracts"
+  default_prompt: "Use $develop-ml-scala to implement and verify this ML task with reproducible evidence."

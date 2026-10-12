@@ -1,0 +1,4 @@
+interface:
+  display_name: "C++ ML"
+  short_description: "Build C++ ML pipelines and inference contracts"
+  default_prompt: "Use $develop-ml-cpp to implement and verify this ML task with reproducible evidence."

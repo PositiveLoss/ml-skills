@@ -1,0 +1,4 @@
+interface:
+  display_name: "Track ML experiments"
+  short_description: "Record data, code, runs and comparable metric histories"
+  default_prompt: "Use $track-ml-experiments to implement and verify this ML task with reproducible evidence."

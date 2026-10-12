@@ -1,0 +1,4 @@
+interface:
+  display_name: "Rust ML"
+  short_description: "Build Rust ML pipelines and inference contracts"
+  default_prompt: "Use $develop-ml-rust to implement and verify this ML task with reproducible evidence."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Train distributed ML"
+  short_description: "Verify distributed data, gradients and checkpoint semantics"
+  default_prompt: "Use $train-distributed-ml to implement and verify this ML task with reproducible evidence."

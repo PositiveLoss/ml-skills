@@ -1,0 +1,4 @@
+interface:
+  display_name: "Monitor ML models"
+  short_description: "Distinguish service health, data shift and quality drift"
+  default_prompt: "Use $monitor-ml-models to implement and verify this ML task with reproducible evidence."

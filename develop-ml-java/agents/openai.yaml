@@ -1,0 +1,4 @@
+interface:
+  display_name: "Java ML"
+  short_description: "Build Java ML pipelines and inference contracts"
+  default_prompt: "Use $develop-ml-java to implement and verify this ML task with reproducible evidence."

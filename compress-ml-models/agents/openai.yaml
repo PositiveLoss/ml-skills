@@ -1,0 +1,4 @@
+interface:
+  display_name: "Compress ML models"
+  short_description: "Quantize, prune or distill with task-level validation"
+  default_prompt: "Use $compress-ml-models to implement and verify this ML task with reproducible evidence."

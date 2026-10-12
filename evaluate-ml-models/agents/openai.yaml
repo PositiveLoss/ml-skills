@@ -1,0 +1,4 @@
+interface:
+  display_name: "Evaluate ML models"
+  short_description: "Measure held-out quality with slices and uncertainty"
+  default_prompt: "Use $evaluate-ml-models to implement and verify this ML task with reproducible evidence."

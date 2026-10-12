@@ -1,0 +1,4 @@
+interface:
+  display_name: "Build ML ranking systems"
+  short_description: "Evaluate retrieval and ranking by query and candidate set"
+  default_prompt: "Use $build-ml-ranking-systems to implement and verify this ML task with reproducible evidence."

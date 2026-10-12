@@ -1,0 +1,4 @@
+interface:
+  display_name: "Debug ML training"
+  short_description: "Localize NaNs, stalled learning and evaluation mistakes"
+  default_prompt: "Use $debug-ml-training to implement and verify this ML task with reproducible evidence."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Train ML with PyTorch"
+  short_description: "Validate PyTorch gradients, modes and checkpoint state"
+  default_prompt: "Use $train-ml-with-pytorch to implement and verify this ML task with reproducible evidence."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Deploy edge ML"
+  short_description: "Validate mobile and embedded model behavior on devices"
+  default_prompt: "Use $deploy-edge-ml to implement and verify this ML task with reproducible evidence."

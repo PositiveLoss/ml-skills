@@ -1,0 +1,14 @@
+{
+  "task": "replace-with-real-task",
+  "prediction_unit": "entity/session/sample",
+  "data_version": "immutable-source-id",
+  "split_manifest_sha256": "compute-real-hash",
+  "model_revision": "exact-model-id",
+  "preprocessing_revision": "exact-preprocessor-id",
+  "selection_metric": "declared-metric",
+  "threshold_selection": "validation-only",
+  "evaluation_population": "declared-population",
+  "runtime_versions": {},
+  "tested_devices": [],
+  "limitations": []
+}

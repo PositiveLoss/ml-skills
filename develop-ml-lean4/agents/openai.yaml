@@ -1,0 +1,4 @@
+interface:
+  display_name: "Lean 4 ML"
+  short_description: "Build Lean 4 ML pipelines and inference contracts"
+  default_prompt: "Use $develop-ml-lean4 to implement and verify this ML task with reproducible evidence."

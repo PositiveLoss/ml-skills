@@ -1,0 +1,4 @@
+interface:
+  display_name: "Maintain ML pipelines"
+  short_description: "Make data-to-model workflows resumable and reviewable"
+  default_prompt: "Use $maintain-ml-pipelines to implement and verify this ML task with reproducible evidence."

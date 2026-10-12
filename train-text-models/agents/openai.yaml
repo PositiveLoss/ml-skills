@@ -1,0 +1,4 @@
+interface:
+  display_name: "Train text models"
+  short_description: "Train NLP tasks with tokenizer and source isolation"
+  default_prompt: "Use $train-text-models to implement and verify this ML task with reproducible evidence."

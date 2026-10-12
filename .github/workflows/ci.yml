@@ -1,0 +1,58 @@
+name: Validate and package skills
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: skills-ci-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  package:
+    name: Package (${{ matrix.os }})
+    runs-on: ${{ matrix.os }}
+    timeout-minutes: 10
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, windows-latest, macos-latest]
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v6
+        with:
+          persist-credentials: false
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: '3.14'
+
+      - name: Install packaging dependencies
+        run: python -m pip install -r requirements-ci.txt
+
+      - name: Check Python syntax
+        shell: python
+        run: |
+          from pathlib import Path
+          for path in Path('.').rglob('*.py'):
+              if not any(part.startswith('.') for part in path.parts):
+                  compile(path.read_bytes(), str(path), 'exec')
+
+      - name: Test packaging
+        run: python -B -m unittest discover -s tests -v
+
+      - name: Validate metadata and links and build ZIP
+        run: python -B scripts/release_skills.py --output dist/machine-learning-skills.zip
+
+      - name: Upload ZIP
+        if: runner.os == 'Linux'
+        uses: actions/upload-artifact@v7
+        with:
+          path: dist/machine-learning-skills.zip
+          archive: false
+          if-no-files-found: error
