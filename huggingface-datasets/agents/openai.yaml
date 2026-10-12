@@ -1,0 +1,5 @@
+interface:
+  display_name: Hugging Face Datasets
+  short_description: Explore and query Hugging Face datasets
+  default_prompt: 'Use $huggingface-datasets to help me with this task: explore and
+    query hugging face datasets.'

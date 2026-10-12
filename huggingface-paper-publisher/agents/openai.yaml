@@ -1,0 +1,5 @@
+interface:
+  display_name: Hugging Face Paper Publisher
+  short_description: Publish and manage research papers on the Hub
+  default_prompt: 'Use $huggingface-paper-publisher to help me with this task: publish
+    and manage research papers on the hub.'

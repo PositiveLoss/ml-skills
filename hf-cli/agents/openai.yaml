@@ -1,0 +1,5 @@
+interface:
+  display_name: Hugging Face CLI
+  short_description: Manage Hugging Face Hub resources with the hf CLI
+  default_prompt: 'Use $hf-cli to help me with this task: manage hugging face hub
+    resources with the hf cli.'

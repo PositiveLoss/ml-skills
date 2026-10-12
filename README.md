@@ -1,12 +1,12 @@
-# Machine learning skills — 45
+# Machine learning skills — 56
 
-A collection of 45 standalone agent skills covering machine learning development, evaluation, deployment and integration across nine programming languages. Skill instructions and references are written in English.
+A collection of 56 standalone agent skills covering machine learning development, evaluation, deployment and integration across nine programming languages. Skill instructions and references are written in English.
 
 ## Contents
 
-- 45 skill directories, each with `SKILL.md` and `agents/openai.yaml` metadata.
+- 56 skill directories, each with `SKILL.md` and `agents/openai.yaml` metadata.
 - Task guidance and evidence requirements in each skill's `references/` directory.
-- Seven Python helpers, plus example data for selected skills.
+- Python helpers, example data and upstream Hugging Face resources for selected skills.
 - GitHub Actions workflows that validate the collection, build ZIP artifacts and package GitHub releases.
 
 ## Installation in Codex
@@ -48,7 +48,7 @@ CI runs on Linux, Windows and macOS for pushes, pull requests and manual dispatc
 
 ## Validation limits
 
-Packaging checks validate collection structure and archive contents. They do not train models or execute the seven skill helpers. Individual helpers may require additional dependencies such as NumPy, scikit-learn or PyTorch; consult their skill instructions and tool references. Model quality, runtime compatibility, accelerator behavior and deployment performance need task-specific checks in the target environment.
+Packaging checks validate collection structure and archive contents. They do not train models or execute skill helpers. Individual helpers may require additional dependencies such as NumPy, scikit-learn or PyTorch; consult their skill instructions and tool references. Model quality, runtime compatibility, accelerator behavior and deployment performance need task-specific checks in the target environment.
 
 ## Catalog
 
@@ -120,3 +120,19 @@ Packaging checks validate collection structure and archive contents. They do not
 - `develop-ml-kotlin` — Integrate Kotlin/JVM and Android model runtimes.
 - `develop-ml-scala` — Integrate Spark ML pipelines and JVM native inference.
 - `develop-ml-lean4` — Formalize ML invariants and bounded inference bridges in Lean 4.
+
+### 9. Hugging Face ecosystem
+
+These 11 skills are imported from the [Hugging Face Agent Skills documentation](https://huggingface.co/docs/hub/en/agents-skills) and [huggingface/skills](https://github.com/huggingface/skills) at revision `c3ff942be3e07116b475253f0a8fc4f54682c1a8`. Each imported directory includes its upstream resources, an Apache-2.0 `LICENSE.txt`, source provenance in `UPSTREAM.md`, and locally added Codex agent metadata. The documentation labels the Gradio skill `gradio`; its upstream directory and invocation name are `huggingface-gradio`.
+
+- `hf-cli` — Download, upload and manage Hub repositories, resources and jobs with the `hf` CLI.
+- `huggingface-datasets` — Explore dataset metadata, paginate rows, search text and apply filters.
+- `huggingface-llm-trainer` — Train and fine-tune language models with TRL or Unsloth on Hugging Face Jobs.
+- `huggingface-vision-trainer` — Train object detection, image classification and segmentation models.
+- `huggingface-community-evals` — Evaluate Hub models on local hardware with inspect-ai and lighteval.
+- `huggingface-trackio` — Log, visualize and monitor training experiments with Trackio.
+- `huggingface-papers` — Find and read research paper pages and structured paper metadata.
+- `huggingface-paper-publisher` — Publish and manage research papers on the Hub.
+- `huggingface-tool-builder` — Build reusable scripts for Hugging Face API workflows.
+- `huggingface-gradio` — Build Gradio web interfaces and demos in Python.
+- `transformers-js` — Run models in JavaScript and TypeScript using WebGPU or WASM.

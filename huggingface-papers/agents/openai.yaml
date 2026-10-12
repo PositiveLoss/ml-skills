@@ -1,0 +1,5 @@
+interface:
+  display_name: Hugging Face Papers
+  short_description: Find and read Hugging Face research papers
+  default_prompt: 'Use $huggingface-papers to help me with this task: find and read
+    hugging face research papers.'

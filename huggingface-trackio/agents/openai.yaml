@@ -1,0 +1,5 @@
+interface:
+  display_name: Hugging Face Trackio
+  short_description: Track and visualize ML training experiments
+  default_prompt: 'Use $huggingface-trackio to help me with this task: track and visualize
+    ml training experiments.'

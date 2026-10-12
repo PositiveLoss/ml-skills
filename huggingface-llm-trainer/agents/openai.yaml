@@ -1,0 +1,5 @@
+interface:
+  display_name: Hugging Face LLM Trainer
+  short_description: Fine-tune language models on Hugging Face Jobs
+  default_prompt: 'Use $huggingface-llm-trainer to help me with this task: fine-tune
+    language models on hugging face jobs.'

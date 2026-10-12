@@ -1,0 +1,5 @@
+interface:
+  display_name: Hugging Face Community Evals
+  short_description: Evaluate Hub models on local hardware
+  default_prompt: 'Use $huggingface-community-evals to help me with this task: evaluate
+    hub models on local hardware.'

@@ -1,0 +1,5 @@
+interface:
+  display_name: Hugging Face Gradio
+  short_description: Build Gradio web interfaces and demos
+  default_prompt: 'Use $huggingface-gradio to help me with this task: build gradio
+    web interfaces and demos.'

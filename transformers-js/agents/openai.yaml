@@ -1,0 +1,5 @@
+interface:
+  display_name: Transformers.js
+  short_description: Run ML models in JavaScript and TypeScript
+  default_prompt: 'Use $transformers-js to help me with this task: run ml models in
+    javascript and typescript.'

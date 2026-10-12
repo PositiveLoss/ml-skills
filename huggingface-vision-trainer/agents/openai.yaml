@@ -1,0 +1,5 @@
+interface:
+  display_name: Hugging Face Vision Trainer
+  short_description: Train vision models on Hugging Face Jobs
+  default_prompt: 'Use $huggingface-vision-trainer to help me with this task: train
+    vision models on hugging face jobs.'

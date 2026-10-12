@@ -1,0 +1,5 @@
+interface:
+  display_name: Hugging Face Tool Builder
+  short_description: Build reusable Hugging Face API scripts
+  default_prompt: 'Use $huggingface-tool-builder to help me with this task: build
+    reusable hugging face api scripts.'
