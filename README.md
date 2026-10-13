@@ -1,10 +1,10 @@
-# Machine learning skills — 56
+# Machine learning skills — 57
 
-A collection of 56 standalone agent skills covering machine learning development, evaluation, deployment and integration across nine programming languages. Skill instructions and references are written in English.
+A collection of 57 standalone agent skills covering machine learning development, evaluation, deployment and integration across nine programming languages. Skill instructions and references are written in English.
 
 ## Contents
 
-- 56 skill directories, each with `SKILL.md` and `agents/openai.yaml` metadata.
+- 57 skill directories, each with `SKILL.md` and `agents/openai.yaml` metadata.
 - Task guidance and evidence requirements in each skill's `references/` directory.
 - Python helpers, example data and upstream Hugging Face resources for selected skills.
 - GitHub Actions workflows that validate the collection, build ZIP artifacts and package GitHub releases.
@@ -78,6 +78,7 @@ Packaging checks validate collection structure and archive contents. They do not
 - `train-ml-with-pytorch` — Implement training loops, autograd and resumable checkpoints.
 - `train-ml-with-tensorflow` — Implement TensorFlow/Keras data pipelines, training and export.
 - `train-ml-with-jax` — Implement JAX training with explicit state and transformation boundaries.
+- `use-ml-dtypes` — Select and validate low-precision NumPy dtypes, accumulation and runtime interoperability.
 
 ### 4. Adaptation and training efficiency
 

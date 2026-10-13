@@ -1,0 +1,4 @@
+interface:
+  display_name: "Use ml_dtypes"
+  short_description: "Validate low-precision NumPy dtype behavior"
+  default_prompt: "Use $use-ml-dtypes to select and validate low-precision dtypes for this ML pipeline."
